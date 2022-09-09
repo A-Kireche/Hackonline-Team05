@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "language",
+      "patterns": [
+        "How can i improve my language?",
+        "My english is very weak, how can i improve it ?",
+        "Do you have some courses to improve english ?"
+      ],
+      "responses": [
+        "First of all you have to test your level in english,I suggest Cambridge University website to do that.then you have to complete a course to develop your proficiency and for that i suggest cambridge university website"
+      ]
+    },
+    {
+      "tag": "Tourism",
+      "patterns": [
+        "I'm new in Algiers, what are the places that I should visit ?"
+      ],
+      "responses": [
+        "Welcome ! Well, I suggest : walk around the casbah, visit the Martyrs' Memorial,Relax in the botanical garden, Visit the Notre Dame Dafrique,Visit Palais des Rais. Enjoy your time !" 
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Budget",
+      "patterns": [
+        "How can I manage my money as a student in campus ?"
+      ],
+      "responses": [
+        "Managing money and budget is a real skill and by doing so you become more responsible and mature.and here are some tips : Make meals ahead of time, Know your discounts, Track your spending, sell your textbooks, resist impulse buys, buy generic products and avoid name brands."
+      ]
+    }
+  ]
+}
